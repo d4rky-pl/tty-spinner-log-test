@@ -1,0 +1,18 @@
+#################################################################################################################################
+#
+# Before you proceed - please prepare your environment as per:
+#
+# https://helpling.atlassian.net/wiki/spaces/DEVOPS/pages/511868929/Docker+Prepare+your+environment+for+NFS+based+docker+volumes
+#
+#################################################################################################################################
+
+version: '3.0'
+services:
+  www:
+    image: busybox
+  admin:
+    image: busybox
+  sidekiq:
+    image: busybox
+  database:
+    image: busybox
